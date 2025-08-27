@@ -1,0 +1,73 @@
+# === Ignore everything by default ===
+*
+
+# === Unignore dotfiles (like .gitignore, .env, etc.) ===
+!.*
+
+# === Allow folder structure ===
+!*/
+
+# === Track source code ===
+!**/*.cpp
+!**/*.c
+!**/*.h
+!**/*.hpp
+!**/*.py
+!**/*.java
+!**/*.go
+!**/*.js
+!**/*.ts
+!**/*.cs
+!**/*.swift
+!**/*.rs
+!**/*.kt
+!**/*.scala
+!**/*.rb
+!**/*.php
+!**/*.sh
+!**/*.pl
+!**/*.lua
+!**/*.r
+!**/*.jl
+!**/*.sql
+
+# === Track docs/config files ===
+!**/*.md
+!**/*.txt
+!**/*.json
+!**/*.yaml
+!**/*.yml
+!**/*.toml
+!**/*.ini
+!Makefile
+!README
+!LICENSE
+
+# === Ignore build artifacts ===
+*.out
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.dSYM/
+*.dSYM
+
+# === Ignore common build folders ===
+/build/
+/dist/
+/bin/
+/target/
+
+# === Ignore IDE/editor files ===
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
